@@ -5,10 +5,11 @@ var Counter = 0;
 let jumping = 0;
 
 
+alert("برای شروع کلیک کنید!\n سازنده بازی : 'محمد زهدی'")
 
 
 hole.addEventListener("animationiteration" , () => {
-    let random1 = -(((Math.random()*10)*35)+150);
+    let random1 = -(((Math.random()*10)*30)+150);
     hole.style.top = random1 + "px";
     Counter++
 })
