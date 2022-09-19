@@ -2,7 +2,11 @@
 body{
     padding: 0;
     margin: 0;
+    height: 100vh;
     background-color: rgba(183, 229, 233, 0.765);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #game{
